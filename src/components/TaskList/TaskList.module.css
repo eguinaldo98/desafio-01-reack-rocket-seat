@@ -1,0 +1,53 @@
+.taskList {
+    width: 100%;
+}
+
+.taskList header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.taskList header span{  
+    color:var(--blue);
+    font-size: 0.875rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.taskList header span p{  
+    padding: 0.08rem 0.5rem ;
+    color:white;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    display: flex;
+    gap: 1rem;
+    background-color: var(--gray-400);
+}
+
+.withoutTasks {
+    height: 15.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.withoutTasks img {
+    margin: 1rem;
+    width: 3.5rem;
+}
+
+.withoutTasks b {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.withoutTasks p {
+    font-size: 1rem;
+    font-weight:100
+}
+
+.purple {
+    color: var(--blue-dark);
+}
+

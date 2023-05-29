@@ -1,0 +1,34 @@
+.header {
+    background: var(--gray-700);
+    height: 12.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+    align-items: center;
+    gap: 1rem;
+    margin: -1.6rem;
+}
+
+.header strong {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header span{
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--purple-dark);
+}
+.header span:first-of-type {
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--blue);
+}
+
+.rocket {
+    margin: 0.75rem;
+}
